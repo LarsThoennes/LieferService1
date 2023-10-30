@@ -1,0 +1,29 @@
+/* MAIN STYLES */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    /*height: 100vh;
+    overflow: hidden;*/
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.d-none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

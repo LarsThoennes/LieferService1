@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lieferando</title>
+      <link rel="icon" href="img/Logos/logo.png">
+
+     <!-- CSS KLASSEN -->
+
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styleHead.css">
+      <link rel="stylesheet" href="styleMain.css">
+      <link rel="stylesheet" href="styleRightContainer.css">
+      <link rel="stylesheet" href="styleMenu.css">
+      <link rel="stylesheet" href="styleFooter.css">
+      <link rel="stylesheet" href="styleAddBasket.css">
+      <link rel="stylesheet" href="styleFonts.css">
+      <link rel="stylesheet" href="styleSidePage.css">
+      <link rel="stylesheet" href="stylePopUp.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="styleMediaQuery.css">
+
+     <!-- JAVASCRIPT KLASSEN -->
+
+      <script src="script.js"></script>
+      <script src="scriptLoadMenu.js"></script>
+      <script src="scriptIncludehtml.js"></script>
+      <script src="scriptArrays.js"></script>
+      <script src="scriptChangeLanguage.js"></script>
+      <script src="scriptScrollBasket.js"></script>
+      <script src="scriptReview.js"></script>
+      <script src="scriptDeliverPickUp.js"></script>
+      <script src="scriptlike.js"></script>
+      <script src="scriptloadEmptyBasket.js"></script>
+      <script src="scriptLoadFullBasket.js"></script>
+      <script src="scriptMinusPlusButton.js"></script>
+     
+
+   </head>
+   <body id="bodyPopUp" onload="render()">
+    <!-- INCLUDE HEADER -->
+    <div>
+       <div w3-include-html="templates/header.html"></div>
+       <div id="popUpBasketBackground" class="d-none">
+          <div class="popUpBackground">
+             <div id="popUpBasket" class="popUpBasket">
+                <div class="popUpBasketTopSection">
+                   <h1 class="popUpBasketHeadline">Warenkorb</h1>
+                   <button onclick="closeBasket()" class="reviewCloseButton">
+                   <img class="reviewCloseButtonImg" src="img/button/close.png" />
+                   </button>
+                </div>
+                <div id="basket850pixel"></div>
+                <div id="priceSection850px" class="priceSection850px"></div>
+             </div>
+          </div>
+       </div>
+       <div id="popUpBackground" class="d-none">
+          <div class="popUpBackground">
+             <div id="popUp" class="popUp">
+                <div class="popUpTopSection">
+                   <h1 id="popUpHeadline" class="popUpHeadline">Bewertungen</h1>
+                   <button onclick="closeReview()" class="reviewCloseButton">
+                   <img class="reviewCloseButtonImg" src="img/button/close.png" />
+                   </button>
+                </div>
+                <div class="reviewButtonSection">
+                   <div class="popUpMainSectionBackground">
+                      <div class="popUpMainSection">
+                         <div class="popUpMainSectionHeadline">
+                            <h1 class="popUpMainHeadline" id="popUpMainSectionHeadline">Allgemeine Bewertung</h1>
+                         </div>
+                         <div class="popUpChildSectionLeft">
+                            <div>
+                               <h1 class="popUpChildSectionH1"><b>3,9</b></h1>
+                            </div>
+                            <div class="popUpDistance"></div>
+                            <div class="popUpChildSectionRight">
+                               <div>
+                                  <img class="starReviewImg" src="img/Logos/starReview.png" />
+                               </div>
+                               <div class="PopUpSpan">
+                                  <span id="PopUpSpan1">von 6.311 Bewertungen</span>
+                               </div>
+                               <div class="PopUpSpan">
+                                  <span id="PopUpSpan2">Alle Bewertungen stammen von Lieferando.de Kunden, die bei Best Burgers - American Diner bestellt haben.</span>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="reviewButtonSection">
+                            <button onclick="popUpLoadNewReview()" id="sendReview" class="reviewButtonChange">Bewertung abgeben</button>
+                            <button onclick="popUpReview()" id="showReview" class="reviewButtonChange">Bewertungen ansehen</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div id="popUpNewReview"></div>
+                <div id="popUpReviews"></div>
+             </div>
+          </div>
+       </div>
+       <div class="mainContainer">
+          <div>
+             <div>
+                <div>
+                   <img class="backgroundImg" src="img/Logos/background.jpg" />
+                   <img class="restaurantLogo" src="img/Logos/restaurantLogo.jpg" />
+                </div>
+                <div>
+                   <div class="mainSectionHeader">
+                      <div class="restaurantName">
+                         <h1 class="restaurantNameh1">Best Burger's - American Diner</h1>
+                      </div>
+                      <div class="interactionButton">
+                         <div>
+                            <a class="infoButton" href="information.html">
+                            <img class="infoButtonImg" src="img/button/information.png" />
+                            </a>
+                         </div>
+                         <div id="likeSection">
+                            <img id="unliked" class="likeButton" onclick="like()" src="img/button/unliked.png" />
+                            <img id="liked" class="likeButton d-none" onclick="dislike()" src="img/button/liked.png" />
+                         </div>
+                      </div>
+                   </div>
+                   <div class="reviewSection">
+                      <img class="reviewImg" src="img/Logos/starReview.png" />
+                      <button onclick="review() , popUpReview()" id="review" class="reviewButton">6.2k Bewertungen</button>
+                   </div>
+                   <div id="orderInformationDeliver">
+                      <div class="orderInformationDeliver">
+                         <img class="orderIcon" src="img/Logos/shoppingBag.png" />
+                         <span id="minimumOrderValue">Min. 20,00 €</span>
+                         <img class="orderIcon" src="img/Logos/placeholder.png" />
+                         <img class="orderIcon" src="img/Logos/bike.png" />
+                         <span id="orderFees">1,99 €</span>
+                      </div>
+                   </div>
+                   <div id="orderInformationPickUp">
+                      <div class="orderInformationPickUp">
+                         <img class="wayPointImg" src="img/Logos/wayPoint.png" />
+                         <span>Reisholzer Str. 23, 40231 Düsseldorf</span>
+                      </div>
+                   </div>
+                </div>
+                <div class="informationText">
+                   <span id="informationText">
+                   Bei diesem Restaurant kannst du Stempel sammeln. Stelle beim Bestellabschluss bitte sicher, dass du <br/>
+                   dich für unseren Newsletter angemeldet hast, um deine Stempel per E-Mail zu erhalten.
+                   </span>
+                </div>
+                <div class="mainContainerDistance"></div>
+             </div>
+             <div class="ButtonSection850px d-none">
+                <div class="Button850px">
+                   <button id="deliverButton850px" onclick="deliver()" class="deliverButton850px deliverButtonColor">
+                   <b>Lieferung</b><br />
+                   30-55 min
+                   </button>
+                   <button id="pickUpButton850px" onclick="pickUp()" class="deliverButton850px deliverButtonColor">
+                   <b>Abholung</b><br />
+                   15 min
+                   </button>
+                </div>
+             </div>
+             <div id="menuBurger"></div>
+             <div class="menuOrder">
+                <h1></h1>
+             </div>
+             <div id="menuPizza"></div>
+          </div>
+          <div>
+             <div id="rightContainer" class="rightContainer">
+                <div class="rightContainerHeadline">
+                   <h1 id="rightConatinerHeadline">Warenkorb</h1>
+                </div>
+                <div class="rightContainerButtonSection">
+                   <button id="deliverButton" onclick="deliver()" class="deliverButton deliverButtonColor">
+                   <b>Lieferung</b><br />
+                   30-55 min
+                   </button>
+                   <button id="pickUpButton" onclick="pickUp()" class="deliverButton deliverButtonColor">
+                   <b>Abholung</b><br />
+                   15 min
+                   </button>
+                </div>
+                <div id="rightBasket" class="rightBasket">
+                   <div id="rightContainerImgSection" class="rightContainerImgSection"></div>
+                   <div>
+                      <div id="subTotalSection"></div>
+                      <div id="priceSection"></div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="basketSection850px" id="basketSection850px">
+          <div class="hideBasket850px" id="basketButton">
+             <div id="basket850pxButton">
+                <button id="basketButton850px" onclick="openBasket()" class="basketButton850px">
+                   <h1>Warenkorb</h1>
+                </button>
+             </div>
+          </div>
+       </div>
+       <!-- INCLUDE FOOTER -->
+       <div w3-include-html="templates/footer.html"></div>
+    </div>
+ </body>
+ </html>

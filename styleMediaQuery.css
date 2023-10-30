@@ -1,0 +1,552 @@
+@media (max-width: 1700px) {
+  .backgroundImg {
+  width: 1200px;
+  }
+  .mainContainer {
+  width: 1200px;
+  }
+  .mainSectionHeader {
+  width: 1200px;
+  }
+  .mainContainerDistance {
+  width: 1000px;
+  }
+  .menuItemsHeadline {
+  width: 1000px;
+  }
+  .menu {
+  width: 1000px;
+  }
+  }
+  @media (max-width: 1650px) {
+  .backgroundImg {
+  width: 1100px;
+  }
+  .mainContainer {
+  width: 1100px;
+  }
+  .mainSectionHeader {
+  width: 1100px;
+  }
+  .mainContainerDistance {
+  width: 900px;
+  }
+  .menuItemsHeadline {
+  width: 900px;
+  }
+  .menu {
+  width: 900px;
+  }
+  .backgroundImg {
+  height: 400px;
+  }
+  .restaurantLogo {
+  top: 400px;
+  }
+  }
+  @media (max-width: 1550px) {
+  .backgroundImg {
+  width: 1000px;
+  }
+  .mainContainer {
+  width: 1000px;
+  }
+  .mainSectionHeader {
+  width: 1000px;
+  }
+  .mainContainerDistance {
+  width: 800px;
+  }
+  .menuItemsHeadline {
+  width: 800px;
+  }
+  .menu {
+  width: 800px;
+  }
+  }
+  @media (max-width: 1450px) {
+  .backgroundImg {
+  width: 900px;
+  }
+  .mainContainer {
+  width: 900px;
+  }
+  .mainSectionHeader {
+  width: 900px;
+  }
+  .mainContainerDistance {
+  width: 700px;
+  }
+  .menuItemsHeadline {
+  width: 700px;
+  }
+  .menu {
+  width: 700px;
+  }
+  }
+  @media (max-width: 1350px) {
+  .backgroundImg {
+  width: 800px;
+  height: 300px;
+  }
+  .mainContainer {
+  width: 800px;
+  }
+  .mainSectionHeader {
+  width: 800px;
+  }
+  .mainContainerDistance {
+  width: 600px;
+  }
+  .menuItemsHeadline {
+  width: 600px;
+  }
+  .menu {
+  width: 600px;
+  }
+  .restaurantLogo {
+  top: 300px;
+  }
+  .informationText {
+  margin-right: 10px;
+  }
+  }
+  @media (max-width: 1250px) {
+  .backgroundImg {
+  width: 700px;
+  }
+  .mainContainer {
+  width: 700px;
+  }
+  .mainSectionHeader {
+  width: 700px;
+  }
+  .mainContainerDistance {
+  width: 500px;
+  }
+  .menuItemsHeadline {
+  width: 500px;
+  }
+  .menu {
+  width: 500px;
+  }
+  .informationText {
+  margin-right: 10px;
+  }
+  } 
+  @media (max-width: 1150px) {
+  .backgroundImg {
+  width: 650px;
+  }
+  .mainContainer {
+  width: 650px;
+  }
+  .mainSectionHeader {
+  width: 650px;
+  }
+  .mainContainerDistance {
+  width: 450px;
+  }
+  .menuItemsHeadline {
+  width: 450px;
+  }
+  .menu {
+  width: 450px;
+  }
+  .informationText {
+  font-size: 14px;
+  margin-right: 120px;
+  }
+  .restaurantName{
+  font-size: 12px;
+  }
+  .rightContainer {
+  margin-left: 100px;
+  }
+  .foodImg{
+  width: 120px;
+  }
+  }
+  @media (max-width: 1050px) {
+  .backgroundImg {
+  width: 550px;
+  height: 250px;
+  }
+  .mainContainer {
+  width: 550px;
+  }
+  .mainSectionHeader {
+  width: 550px;
+  }
+  .menuItemsHeadline {
+  width: 350px;
+  }
+  .menu {
+  width: 450px;
+  }
+  .restaurantLogo {
+  top: 250px;
+  }
+  .rightContainer {
+  margin-left: 100px;
+  }
+  .rightContainerButtonSection {
+  width: 260px;
+  }
+  h1{
+  font-size: 26px;
+  }
+  .deliverButton{
+  width: 130px;
+  height: 50px;
+  }
+  .basketh1{
+  font-size: 20px;
+  }
+  .restaurantNameh1{
+  font-size: 24px;
+  } 
+  }
+  @media (max-width: 1000px) {
+  .rightContainer {
+  margin-left: 80px;
+  }
+  .iframe{
+  width: 85vw;
+  }
+  }
+  @media (max-width: 950px) {
+  .rightContainer {
+  margin-left: 50px;
+  }
+  }
+  @media (max-width: 900px) {
+  .rightContainer {
+  margin-left: 20px;
+  }
+  }
+  @media (max-width: 880px) {
+  .rightContainer {
+  margin-left: 10px;
+  }
+  .hideBasket850px{
+  display: contents;
+  }
+  }
+  @media (max-width: 850px) {
+  .rightContainer{
+  display: none;
+  }
+  .backgroundImg{
+  width: 100vw;
+  height: 300px;
+  }
+  .restaurantLogo{
+  top: 310px;
+  width: 80px;
+  }
+  .mainSectionHeader{
+  width: 100vw;
+  }
+  .mainContainerDistance{
+  width: 80vw;
+  }
+  .menu{
+  width: 80vw;
+  }
+  .mainContainer{
+  width: 100vw;
+  }
+  .rightContainer{
+  margin-left: 40px;
+  display: none;
+  }
+  .ButtonSection850px{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  }
+  .Button850px{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 237, 234);
+  height: 54px;
+  width: 600px;
+  border-radius: 50px;    
+  }
+  .deliverButton850px{
+  height: 50px;
+  width: 300px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 2px;
+  font-size: 14px;
+  }
+  .basketSection850px{
+  position: fixed;
+  bottom: 10px;
+  transition: all 180ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .basketButton850px{
+  width: 100vw;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(238, 135, 51);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .priceSection850px{
+  margin-top: 16px;
+  }
+  .addFoodSectionPriceSubTotal850px{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+  .addFoodSectionPriceTotal850px{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+  .addFoodSectionPriceTotal850px{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+  .orderButtonSection850px{
+  display: flex;
+  justify-content: center;
+  }
+  }
+  @media (max-width: 600px) {
+  .topSectionMiddle{
+  display: none;
+  }
+  .restaurantNameh1{
+  font-size: 20px;
+  }
+  .infoButtonImg{
+  width: 30px;
+  height: 30px;
+  }
+  .likeButton{
+  width: 40px;
+  height: 40px;
+  }
+  .Button850px{
+  width: 500px;
+  }
+  .deliverButton850px{
+  width: 250px;
+  }
+  .footerLogo{
+  width: 40px;
+  border-radius: 10px;   
+  }
+  .footerName{
+  font-size: 12px;
+  }
+  .footerLink{
+  font-size: 12px;
+  }
+  .foodImg{
+  width: 90px;
+  }
+  .menuTopSection{
+  display: flex;
+  align-items: center;
+  }
+  .menuTopSectionHeadline{
+  font-size: 16px;
+  }
+  .menuMiddleSection{
+  font-size: 12px;
+  }
+  .informationLink{
+  font-size: 16px;
+  }
+  .directionsSpan{
+  font-size: 12px;
+  }
+  .tableSection{
+  font-size: 12px;
+  }
+  .popUp{
+  width: 100%;
+  }
+  .reviewOutline{
+  width: 400px;
+  }
+  .reviewStarButtonSection{
+  margin-right: 20px;
+  }
+  .reviewNameInput{
+  width: 300px;
+  }
+  .reviewtextInput{
+  width: 300px;
+  }
+  }
+  @media (max-width: 500px) {
+  .restaurantNameh1{
+  font-size: 16px;
+  }
+  .infoButtonImg{
+  width: 25px;
+  height: 25px;
+  }
+  .likeButton{
+  width: 30px;
+  height: 30px;
+  }
+  .Button850px{
+  width: 400px;
+  }
+  .deliverButton850px{
+  width: 200px;
+  }
+  .informationText{
+  font-size: 12px;
+  }
+  .reviewOutline{
+  width: 350px;
+  }
+  }
+  @media (max-width: 400px) {
+  .backgroundImg {
+  height: 200px;
+  }
+  .restaurantLogo {
+  top: 240px;
+  width: 45px;
+  }
+  .restaurantNameh1{
+  font-size: 14px;
+  }
+  .Button850px{
+  width: 300px;
+  }
+  .deliverButton850px{
+  width: 150px;
+  }
+  .footerLogo{
+  width: 30px;
+  border-radius: 6px;   
+  }
+  .footerName{
+  font-size: 10px;
+  }
+  .footerLink{
+  font-size: 10px;
+  }
+  .reviewImg{
+  width: 80px;
+  height: 25px;
+  }
+  .reviewButton{
+  font-size: 14px;
+  }
+  .restaurantName{
+  margin-left: 20px;
+  }
+  .reviewSection{
+  margin-left: 20px;
+  }
+  .orderInformationDeliver{
+  margin-left: 20px;
+  }
+  .informationText{
+  margin-left: 20px;
+  }
+  .mainContainerDistance{
+  margin-left: 20px;
+  }
+  .menu{
+  margin-right: 30px;
+  margin-left: 30px;
+  }
+  .restaurantLogo{
+  left: 20px;
+  }
+  .basketSection850px{
+  margin-bottom: 60px;
+  }
+  .mainInformation{
+  margin-left: 10px;
+  }
+  .directionsSpan{
+  font-size: 10px;
+  }
+  .tableSection{
+  font-size: 10px;
+  }
+  .iframe{
+  height: 300px;
+  }  
+  .reviewOutline{
+  width: 300px;
+  margin-left: 40px;
+  }
+  .popUpMainSection{
+  margin-left: 10px;
+  }
+  .popUpMainHeadline{
+  font-size: 16px;
+  }
+  .starReviewImg{
+  width: 120px;
+  }
+  .reviewButtonChange{
+  width: 280px;
+  }
+  .reviewNameInput{
+  width: 200px;
+  }
+  .reviewtextInput{
+  width: 200px;
+  }
+  }
+  @media (max-width: 350px) {
+  .restaurantNameh1{
+  font-size: 12px;
+  }
+  .infoButtonImg{
+  width: 20px;
+  height: 20px;
+  }
+  .likeButton{
+  width: 25px;
+  height: 25px;
+  }
+  .footerLogo{
+  width: 20px;
+  border-radius: 6px;   
+  }
+  .footerName{
+  font-size: 8px;
+  }
+  .footerLink{
+  font-size: 8px;
+  }
+  .foodImg{
+  width: 60px;
+  margin-left: 10px;
+  }
+  .menuMiddleSection{
+  display: flex;
+  align-items: center;
+  }
+  .reviewOutline{
+  margin-left: 10px;
+  }
+  }

@@ -1,0 +1,28 @@
+/*FOOTER*/
+.footer{
+    height: 100px;
+    background-color: rgb(239, 234, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .footerLogoName{
+    display: flex;
+    align-items: center;    
+    }
+    .footerLogo{
+    width: 60px;
+    border-radius: 15px;   
+    }
+    .footerName{
+    margin-left: 10px;
+    }
+    .footerLink{
+    color: black;
+    text-decoration: none;
+    }
+    .footerLink:hover{
+    text-decoration: underline;
+    color: rgb(238, 135, 51);
+    }

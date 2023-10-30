@@ -1,0 +1,30 @@
+/*HEADER*/
+.topSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 8px 8px 10px rgb(233, 233, 233);        
+    }
+    .topSectionTitleImg{
+    width: 200px;
+    }
+    .languageImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    }
+    .burgerMenuImg{
+    width: 60px;
+    height: 35px;
+    }
+    .topSectionMiddle{
+    font-size: bold;
+    }
+    .topSectionRight{
+    display: flex;
+    align-items: center;
+    }
+    .languageButton{
+    border: none;
+    background-color: white;
+    }

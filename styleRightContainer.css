@@ -1,0 +1,71 @@
+/*RIGHT CONTAINER*/
+.rightContainer{
+    position: fixed;
+    top: 100px;
+    transition: all 180ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+   
+    position: sticky;
+    padding-bottom: 32px;
+    }   
+    .clickedButton{
+    background-color: aqua;    
+    }
+    .rightContainerHeadline{
+    display: flex;
+    justify-content: center;       
+    }
+    .rightContainerButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(239, 237, 234);
+    height: 54px;
+    width: 304px;
+    border-radius: 50px;        
+    }
+    .deliverButton{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2px;
+    font-size: 14px;
+    }
+    .deliverButtonColor{
+    background-color: rgb(239, 237, 234);
+    }
+    .clickedDeliverButton{
+    background-color: rgb(238, 135, 51);
+    color: white;
+    }
+    .deliverButton:hover{
+    background-color: rgb(185, 183, 179);        
+    }
+    .rightContainerImgSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    height: 650px;    
+    }
+    .rightContainerImg{
+    width: 80px;
+    }
+    .rightContainerText{
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    }
+    .basketh1{
+    font-size: 24px;
+    }
+    .rightContainerImgDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

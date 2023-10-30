@@ -1,0 +1,123 @@
+/*MAIN CONTAINER*/
+.mainContainer{
+    display: flex;
+    flex-direction: row;  
+    width: 1400px; 
+    box-shadow: 8px 8px 10px rgb(233, 233, 233);         
+    }
+    .backgroundImg{
+    z-index: 0;
+    width: 1400px;
+    height: 500px;
+    position: relative;
+    }
+    .restaurantLogo{
+    z-index: 1;
+    width: 100px;
+    left: 50px;
+    top: 500px;
+    position: absolute;
+    border-radius: 10%;   
+    }
+    .mainSectionHeadlineButton{
+    display: flex;
+    flex-direction: column;  
+    }
+    .mainSectionHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;   
+    }
+    .mainSectionHeader{
+    display: flex;
+    justify-content: space-between;
+    }
+    .restaurantName{
+    margin-top: 10px;
+    margin-left: 50px;
+    }
+    .interactionButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    .infoButton{
+    border: none;
+    background-color: white;
+    }
+    .infoButtonImg{
+    width: 38px;
+    height: 38px;   
+    }
+    .likeButton{
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;
+    cursor: pointer;
+    }
+    .reviewSection{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    }
+    .reviewImg{
+    width: 100px;
+    height: 30px;
+    }
+    .reviewButton{
+    font-size: 16px;
+    color: gray;
+    border: none;
+    text-decoration: underline;
+    background-color: white;
+    }
+    .orderInformationDeliver{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 6px;
+    }
+    .orderInformationPickUp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 6px;
+    }
+    .wayPointImg{
+    width: 30px;
+    }
+    .orderIcon{
+    width: 30px;
+    }
+    .informationText{
+    margin-left: 50px;
+    }
+    .mainContainerDistance{
+    background-color: black;
+    width: 1200px;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    }
+    .mainSectionOptionBar{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 30px; 
+    box-shadow: 8px 8px 10px rgb(233, 233, 233);    
+    }
+    .optionBarLink{
+    margin-left: 50px;
+    color: rgb(73, 82, 83);
+    text-decoration: none;
+    }
+    .optionBarLink:hover{
+    background-color: rgb(202, 200, 200);
+    border-radius: 50px;
+    }
+    .hideBasket850px{
+    display: none;
+    }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lieferando</title>
+      <link rel="icon" href="img/Logos/logo.png">
+      <!-- CSS KLASSEN -->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styleHead.css">
+      <link rel="stylesheet" href="styleMain.css">
+      <link rel="stylesheet" href="styleRightContainer.css">
+      <link rel="stylesheet" href="styleMenu.css">
+      <link rel="stylesheet" href="styleFooter.css">
+      <link rel="stylesheet" href="styleAddBasket.css">
+      <link rel="stylesheet" href="styleFonts.css">
+      <link rel="stylesheet" href="styleSidePage.css">
+      <link rel="stylesheet" href="stylePopUp.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="styleMediaQuery.css">
+      <!-- JAVASCRIPT KLASSEN -->
+      <script src="script.js"></script>
+      <script src="scriptLoadMenu.js"></script>
+      <script src="scriptIncludehtml.js"></script>
+      <script src="scriptArrays.js"></script>
+      <script src="scriptChangeLanguage.js"></script>
+      <script src="scriptScrollBasket.js"></script>
+      <script src="scriptReview.js"></script>
+      <script src="scriptDeliverPickUp.js"></script>
+      <script src="scriptlike.js"></script>
+      <script src="scriptloadEmptyBasket.js"></script>
+      <script src="scriptLoadFullBasket.js"></script>
+      <script src="scriptMinusPlusButton.js"></script>
+   </head>
+   <body onload="render()">
+      <div w3-include-html="templates/headerSidePages.html"></div>
+      <div class="headerSidePageLinkSection">      
+      </div>
+      <div class="mainInformation">
+         <div>
+            <h1 class="informationLink" id="linkOpeningHours" >Öffnungszeiten</h1>
+         </div>
+         <div class="tableSection">
+            <table>
+               <tr>
+                  <th id="table1" class="table">Montag:</th>
+                  <td>13:00 - 22:00</td>
+               </tr>
+               <tr>
+                  <th id="table2" class="table">Dienstag:</th>
+                  <td>13:00 - 22:00</td>
+               </tr>
+               <tr>
+                  <th id="table3" class="table">Mittwoch:</th>
+                  <td>13:00 - 22:00</td>
+               </tr>
+               <tr>
+                  <th id="table4" class="table">Donnerstag:</th>
+                  <td id="openingTimes">GESCHLOSSEN</td>
+               </tr>
+               <tr>
+                  <th id="table5" class="table">Freitag:</th>
+                  <td>12:00 - 00:00</td>
+               </tr>
+               <tr>
+                  <th id="table6" class="table">Samstag:</th>
+                  <td>12:00 - 00:00</td>
+               </tr>
+               <tr>
+                  <th id="table7" class="table">Sonntag:</th>
+                  <td>12:00 - 23:00</td>
+               </tr>
+            </table>
+         </div>
+         <div>
+            <h1 class="informationLink" id="linkDirections" >Anfahrt</h1>
+         </div>
+         <div>
+            <span class="directionsSpan" id="directionsSpan">Unsere Adresse lautet <b>Reisholzer Str. 23, 40231 Düsseldorf</b></span>
+         </div>
+         <div>
+            <iframe  class="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9998.352397710429!2d6.8299605!3d51.2082411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8cb4ae6a5edb7%3A0xf3dab791e3962440!2sMurder%20Burger!5e0!3m2!1sde!2sde!4v1696783386360!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+      <div w3-include-html="templates/footer.html"></div>
+   </body>
+</html>
